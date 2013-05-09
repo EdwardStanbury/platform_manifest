@@ -13,6 +13,15 @@
 
  <remote  name="mbq"
                  fetch="git://github.com/MBQsniper/" />
+                 
+ <remote  name="cm"
+                 fetch="git://github.com/CyanogenMod/" />
+                 
+ <remote  name="ak"
+                 fetch="git://github.com/anarkia1976/" />
+                 
+ <remote  name="tm"
+                 fetch="git://github.com/TheMuppets/" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
@@ -43,6 +52,10 @@
   <project path="device/google/accessory/arduino" name="CyanogenMod/android_device_google_accessory_arduino" />
   <project path="device/google/accessory/demokit" name="CyanogenMod/android_device_google_accessory_demokit" />
   <project path="device/sample" name="CyanogenMod/android_device_sample" />
+  <project path="device/samsung/toro" name="CyanogenMod/android_device_samsung_toro" remote="cm" revision="cm-10.1" />
+  <project path="device/samsun/toroplus" name="CyanogenMod/android_device_samsung_toroplus" remote="cm" revision="cm-10.1" />
+  <project path="device/samsung/tuna" name="CyanogenMod/android_device_samsung_tuna" remote="cm" revision="cm-10.1" />
+  <project path="device/samsung/maguro" name="CyanogenMod/android_device_samsung_maguro" remote="cm" revison="cm-10.1" />
   <project path="device/ti/panda" name="CyanogenMod/android_device_ti_panda" />
   <project path="docs/source.android.com" name="CyanogenMod/android_docs_source.android.com" />
   <project path="external/aac" name="CyanogenMod/android_external_aac" />
@@ -236,6 +249,7 @@
   <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" />
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" />
+  <project path="kernel/samsung/tuna" name="kernel_samsung_tuna" remote="ak" revision="ak-4.2.2-official-mainline" />
   <project path="libcore" name="CyanogenMod/android_libcore" />
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" />
   <project path="ndk" name="CyanogenMod/android_ndk" />
@@ -341,4 +355,5 @@
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
   <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" />
+  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="tm" revision="cm-10.1" />
 </manifest>
