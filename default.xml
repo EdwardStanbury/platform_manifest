@@ -11,6 +11,9 @@
   <remote  name="pm"
                  fetch="git://github.com/Project-M-/" />
 
+ <remote  name="mbq"
+                 fetch="git://github.com/MBQsniper/" />
+
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
