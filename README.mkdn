@@ -1,0 +1,15 @@
+Project-M
+=========
+
+To add Project-M:
+------------------------
+1. cd to the path where you want to put the repo
+2. get root access
+3. mkdir ~/bin
+4. PATH=~/bin:$PATH
+5. curl https://dl-ssl.google.com/dl/googlesource/git-repo/repo > ~/bin/repo
+6. chmod a+x ~/bin/repo
+7. mkdir Project-M
+8. cd Project-M
+9. repo init -u git://github.com/Project-M-/Project-M.git -b master
+10. Repo sync
