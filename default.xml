@@ -10,9 +10,6 @@
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
-           
-  <remote  name="pm"
-           fetch="git://github.com/Project-M-/Project-M.git" />
 
   <default revision="refs/heads/jellybean"
            remote="github"

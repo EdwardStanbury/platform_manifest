@@ -11,5 +11,5 @@ To add Project-M:
 6. chmod a+x ~/bin/repo
 7. mkdir Project-M
 8. cd Project-M
-9. repo init -u git://github.com/Project-M-/Project-M.git -b master
+9. repo init -u git://github.com/Project-M-/platform_manifest.git -b master
 10. Repo sync
