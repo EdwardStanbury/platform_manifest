@@ -53,7 +53,7 @@
   <project path="device/google/accessory/demokit" name="CyanogenMod/android_device_google_accessory_demokit" />
   <project path="device/sample" name="CyanogenMod/android_device_sample" />
   <project path="device/samsung/toro" name="android_device_samsung_toro" remote="cm" revision="cm-10.1" />
-  <project path="device/samsun/toroplus" name="android_device_samsung_toroplus" remote="cm" revision="cm-10.1" />
+  <project path="device/samsung/toroplus" name="android_device_samsung_toroplus" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/tuna" name="android_device_samsung_tuna" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/maguro" name="android_device_samsung_maguro" remote="cm" revison="cm-10.1" />
   <project path="device/ti/panda" name="CyanogenMod/android_device_ti_panda" />
